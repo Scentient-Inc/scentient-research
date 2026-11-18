@@ -1,0 +1,64 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": "docs",
+  "redirects": [
+    {
+      "source": "/manifesto",
+      "destination": "/thesis.html",
+      "permanent": false
+    },
+    {
+      "source": "/manifesto.html",
+      "destination": "/thesis.html",
+      "permanent": false
+    },
+    {
+      "source": "/unfair-head-start",
+      "destination": "/demeter.html",
+      "permanent": false
+    },
+    {
+      "source": "/unfair-head-start.html",
+      "destination": "/demeter.html",
+      "permanent": false
+    },
+    {
+      "source": "/system",
+      "destination": "/environments.html",
+      "permanent": false
+    },
+    {
+      "source": "/system.html",
+      "destination": "/environments.html",
+      "permanent": false
+    },
+    {
+      "source": "/horizons",
+      "destination": "/research.html",
+      "permanent": false
+    },
+    {
+      "source": "/horizons.html",
+      "destination": "/research.html",
+      "permanent": false
+    },
+    {
+      "source": "/principles",
+      "destination": "/principles.html",
+      "permanent": false
+    },
+    {
+      "source": "/inspirations",
+      "destination": "/thesis.html",
+      "permanent": false
+    },
+    {
+      "source": "/inspirations.html",
+      "destination": "/thesis.html",
+      "permanent": false
+    }
+  ]
+}
