@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The greenhouse memory | Scentient</title>
+<style>
+*{box-sizing:border-box}body{margin:auto;max-width:850px;padding:clamp(18px,4vw,40px);background:#10110f;color:#f8f6ee;font:17px/1.5 system-ui,sans-serif}a{color:inherit}header,small{font:14px/1.5 monospace}header{display:flex;justify-content:space-between;gap:1rem}h1{font:600 clamp(30px,5vw,48px)/1.1 Georgia,serif;margin:24px 0 10px}blockquote{margin:12px 0 24px;font:24px/1.4 Georgia,serif}.panel{background:#f5f2e9;color:#171913;padding:20px 24px;border-left:6px solid #a9d077}.panel p{margin:8px 0}h2{font-size:19px;margin:0 0 8px}.controls{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}button{font:inherit;padding:8px 14px;cursor:pointer;background:#f6df66;color:#15150e;border:0}button:disabled{opacity:.45;cursor:default}button:focus-visible,a:focus-visible{outline:3px solid #42afff;outline-offset:3px}#status{min-height:3em}small{color:#c6c9bb}
+</style></head><body>
+<header><a href="./">Scentient</a><span>Fictional scenario · Fixed rules</span></header>
+<h1>The greenhouse memory</h1>
+<p>A participant recalls a greenhouse and generally enjoys floral perfumes.</p>
+<blockquote id="account"></blockquote>
+<section class="panel"><h2>Which scent should we try?</h2>
+<p><strong>For this memory</strong> · <span id="memory"></span></p>
+<p><strong>For everyday wear</strong> · <span id="wear"></span></p></section>
+<p>Participant correction<br><em>“No flowers in this memory. I still like floral perfumes.”</em></p>
+<div class="controls"><button id="choose">Choose scents</button><button id="correct">Apply correction</button><button id="reset">Start over</button></div>
+<p id="status" role="status"></p><small>Staged prototype. The buttons run local code against two preset scent candidates.</small>
+<script type="module" src="greenhouse.js"></script></body></html>
