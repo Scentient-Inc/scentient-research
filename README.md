@@ -8,4 +8,4 @@ The company website introduces Scentient. The research library holds selected pu
 
 `docs/` is the GitHub Pages library. `company-site/` is the separate Vercel company site. Neither contains private research protocols, customer records, models or working papers.
 
-Copyright 2026 Scentient Sensory Technologies. All rights reserved unless explicitly stated otherwise.
+Copyright 2026 Scentient Inc. All rights reserved unless explicitly stated otherwise.

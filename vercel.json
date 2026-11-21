@@ -7,42 +7,42 @@
   "redirects": [
     {
       "source": "/thesis",
-      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/thesis.html",
-      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/manifesto",
-      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/manifesto.html",
-      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/experiences.html",
-      "destination": "/",
+      "destination": "/#foundation",
       "permanent": false
     },
     {
       "source": "/environments.html",
-      "destination": "/",
+      "destination": "/#foundation",
       "permanent": false
     },
     {
       "source": "/episodes.html",
-      "destination": "/",
+      "destination": "/#foundation",
       "permanent": false
     },
     {
       "source": "/prizm.html",
-      "destination": "/",
+      "destination": "/#foundation",
       "permanent": false
     },
     {
@@ -52,62 +52,77 @@
     },
     {
       "source": "/demeter.html",
-      "destination": "/",
+      "destination": "/#partnership",
       "permanent": false
     },
     {
       "source": "/alignment.html",
-      "destination": "/",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/principles",
-      "destination": "/",
+      "destination": "/#principles",
       "permanent": false
     },
     {
       "source": "/principles.html",
-      "destination": "/",
+      "destination": "/#principles",
       "permanent": false
     },
     {
       "source": "/system",
-      "destination": "/",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/system.html",
-      "destination": "/",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/horizons",
-      "destination": "/",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/horizons.html",
-      "destination": "/",
+      "destination": "/research.html",
       "permanent": false
     },
     {
       "source": "/unfair-head-start",
-      "destination": "/",
+      "destination": "/#partnership",
       "permanent": false
     },
     {
       "source": "/unfair-head-start.html",
-      "destination": "/",
+      "destination": "/#partnership",
       "permanent": false
     },
     {
       "source": "/inspirations",
-      "destination": "/",
+      "destination": "/#influences",
       "permanent": false
     },
     {
       "source": "/inspirations.html",
-      "destination": "/",
+      "destination": "/#influences",
+      "permanent": false
+    },
+    {
+      "source": "/research",
+      "destination": "/research.html",
+      "permanent": false
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html",
+      "permanent": false
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html",
       "permanent": false
     }
   ]
