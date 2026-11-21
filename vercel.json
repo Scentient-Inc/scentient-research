@@ -61,11 +61,6 @@
       "permanent": false
     },
     {
-      "source": "/research.html",
-      "destination": "/",
-      "permanent": false
-    },
-    {
       "source": "/principles",
       "destination": "/",
       "permanent": false
