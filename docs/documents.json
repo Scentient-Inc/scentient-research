@@ -12,12 +12,6 @@
     "description": "The commitments behind the inquiry."
   },
   {
-    "id": "influences",
-    "title": "Influences & reading",
-    "kind": "SELECTED REFERENCES",
-    "description": "Ilya Sutskever, Demis Hassabis, Yann LeCun, Fei-Fei Li, and scientific foundations."
-  },
-  {
     "id": "partnership",
     "title": "Demeter & Scentient",
     "kind": "STRATEGIC PARTNERSHIP",
