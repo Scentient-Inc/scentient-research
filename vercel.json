@@ -2,62 +2,117 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "",
-  "buildCommand": "cp company-home.html docs/index.html",
-  "outputDirectory": "docs",
+  "buildCommand": "mkdir -p public && cp -R company-site/. public/",
+  "outputDirectory": "public",
   "redirects": [
     {
+      "source": "/thesis",
+      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
+      "permanent": false
+    },
+    {
+      "source": "/thesis.html",
+      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
+      "permanent": false
+    },
+    {
       "source": "/manifesto",
-      "destination": "/thesis.html",
+      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
       "permanent": false
     },
     {
       "source": "/manifesto.html",
-      "destination": "/thesis.html",
+      "destination": "https://scentient-inc.github.io/scentient-research/thesis.html",
       "permanent": false
     },
     {
-      "source": "/unfair-head-start",
-      "destination": "/demeter.html",
+      "source": "/experiences.html",
+      "destination": "/",
       "permanent": false
     },
     {
-      "source": "/unfair-head-start.html",
-      "destination": "/demeter.html",
+      "source": "/environments.html",
+      "destination": "/",
       "permanent": false
     },
     {
-      "source": "/system",
-      "destination": "/environments.html",
+      "source": "/episodes.html",
+      "destination": "/",
       "permanent": false
     },
     {
-      "source": "/system.html",
-      "destination": "/environments.html",
+      "source": "/prizm.html",
+      "destination": "/",
       "permanent": false
     },
     {
-      "source": "/horizons",
-      "destination": "/research.html",
+      "source": "/company.html",
+      "destination": "/",
       "permanent": false
     },
     {
-      "source": "/horizons.html",
-      "destination": "/research.html",
+      "source": "/demeter.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/alignment.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/research.html",
+      "destination": "/",
       "permanent": false
     },
     {
       "source": "/principles",
-      "destination": "/principles.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/principles.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/system",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/system.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/horizons",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/horizons.html",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/unfair-head-start",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/unfair-head-start.html",
+      "destination": "/",
       "permanent": false
     },
     {
       "source": "/inspirations",
-      "destination": "/thesis.html",
+      "destination": "/",
       "permanent": false
     },
     {
       "source": "/inspirations.html",
-      "destination": "/thesis.html",
+      "destination": "/",
       "permanent": false
     }
   ]

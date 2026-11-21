@@ -1,0 +1,1 @@
+document.querySelector('#copy-email')?.addEventListener('click',async()=>{const status=document.querySelector('#copy-status');try{await navigator.clipboard.writeText('ross@scentient.me');status.textContent='Email address copied.'}catch{status.textContent='Copy this address: ross@scentient.me'}});
